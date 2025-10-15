@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(8, 6, 36);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(8, 25, 40);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: purple;
+    transition: 0.3s;
+}
+
+
+.left {
+    font-size: 1.5r3em;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+
+
+
+}
+
+.leftSection {
+    font-size: 2.5rem;
+    margin: 70px 0 0 0;
+}
+
+.purple {
+    color: purple;
+}
+
+.text-gray {
+    color: grey;
+}
+
+#element {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: purple;
+}
+
+
+
+.secondSection {
+    max-width: 60vw;
+    margin-left: 10;
+    margin-right: 10;
+
+
+}
+
+.secondSection h1 {
+    max-width: 60vw;
+    font-size: 1.3rem;
+    text-align: left;
+    margin-left: 10;
+    margin-right: 10;
+}
+
+.secondSection .box {
+    background: white;
+    width: 90vw;
+    height: 2px;
+    margin: 50px 0 0 0;
+    display: flex;
+    margin-left: 45px;
+
+
+}
+
+.secondSection .vertical {
+    background: white;
+    width: 1px;
+    height: 110px;
+    margin: 0 100px;
+
+
+}
+
+.footer {
+    background: rgb(8, 25, 40);
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 550px;
+}
+
+.footer ul li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 420px;
+}
+
+
+main hr {
+    border: 0cap;
+    height: 1px;
+    background: gray;
+    margin: 56x 84px;
+}
+
+footer p {
+    color: rgb(255, 254, 254);
+    margin-top: 333px;
+}
